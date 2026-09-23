@@ -11,10 +11,15 @@ As part of my journey in **Software Development, Data Science, and Artificial In
 🔹 Individual user conversations
 
 🔹 Persistent chat history with SQLite
+
 🔹 Create, select, and rename conversations
+
 🔹 Conversation context sent to Gemini
+
 🔹 Markdown response rendering
+
 🔹 Responsive interface for desktop and mobile
+
 🔹 Secure API key management using environment variables
 
 🛠️ **Technologies:**
