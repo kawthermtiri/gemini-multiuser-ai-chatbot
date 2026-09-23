@@ -3,9 +3,13 @@
 As part of my journey in **Software Development, Data Science, and Artificial Intelligence**, I developed a multi-user web application that allows users to interact with an AI assistant powered by the **Google Gemini API**.
 
 🚀 **Main Features:**
+
 🔹 User registration, login, and logout
+
 🔹 Secure password hashing
+
 🔹 Individual user conversations
+
 🔹 Persistent chat history with SQLite
 🔹 Create, select, and rename conversations
 🔹 Conversation context sent to Gemini
