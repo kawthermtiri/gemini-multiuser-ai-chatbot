@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI Chat</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <div class="app-layout">
+        <aside class="conversation-sidebar">
+            <button id="newChatButton" class="new-chat-button" type="button">+ Nouveau chat</button>
+            <h3>Mes conversations</h3>
+            <div id="conversationList" class="conversation-list"></div>
+        </aside>
+
+        <div class="chat-container">
+
+        <div class="chat-header">
+            <div>
+                <h2>🤖 AI Assistant</h2>
+                <p>Votre conversation est sauvegardée</p>
+            </div>
+            <form action="{{ url_for('logout') }}" method="get">
+                <button class="logout-button" type="submit">Déconnexion</button>
+            </form>
+        </div>
+
+        <div class="chat-messages" id="chatMessages">
+
+            <div class="message bot-message">
+                Bonjour ! 👋 Comment puis-je vous aider ?
+            </div>
+
+        </div>
+
+        <div class="chat-input">
+
+            <input
+                type="text"
+                id="userInput"
+                placeholder="Écrivez votre message..."
+            >
+
+            <button id="sendButton">
+                Envoyer
+            </button>
+
+        </div>
+
+        </div>
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>
