@@ -1,25 +1,22 @@
-🤖 AI Web Chatbot
+🤖 **AI Chatbot with Google Gemini | Python & Flask**
 
-An AI-powered chatbot built with Python, Flask, and Google Gemini API.
+As part of my journey in **Software Development, Data Science, and Artificial Intelligence**, I developed a multi-user web application that allows users to interact with an AI assistant powered by the **Google Gemini API**.
 
-This project provides an interactive web-based chat interface where users can communicate with an AI assistant in real time. The chatbot supports conversation memory, allowing it to understand the context of previous messages.
+🚀 **Main Features:**
+🔹 User registration, login, and logout
+🔹 Secure password hashing
+🔹 Individual user conversations
+🔹 Persistent chat history with SQLite
+🔹 Create, select, and rename conversations
+🔹 Conversation context sent to Gemini
+🔹 Markdown response rendering
+🔹 Responsive interface for desktop and mobile
+🔹 Secure API key management using environment variables
 
-The application is designed to be reusable and easily integrated into other websites or web applications.
+🛠️ **Technologies:**
+Python | Flask | SQLite | Google Gemini API | JavaScript | HTML | CSS | Marked.js
 
-✨ Features
-💬 Interactive AI chat interface
-🧠 Conversation memory
-🤖 Powered by Google Gemini API
-📝 Markdown response formatting
-⏳ Loading indicator while the AI generates a response
-⌨️ Send messages using the Enter key
-🔌 Easy integration with other websites and web applications
-🔐 API key protected using environment variables
-🛠️ Technologies Used
-Python
-Flask
-Google Gemini API
-HTML
-CSS
-JavaScript
-Marked.js
+💡 **What I learned:**
+
+Building this project helped me better understand how to connect a **Generative AI API** to a real web application, while also working with authentication, databases, API communication, conversation context, and secure environment configuration.
+
